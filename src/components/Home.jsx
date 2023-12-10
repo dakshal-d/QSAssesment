@@ -167,8 +167,6 @@ const Home = () => {
       groupedTickets_priority[priority]?.sort(compareTitles);
     }
   }
-  //
-
   // sorting basis priority
   const comparePriority = (a, b) => {
     return a.priority - b.priority;
@@ -185,8 +183,6 @@ const Home = () => {
       groupedTickets_priority[priority]?.sort(comparePriority);
     }
   }
-  //
-
   return (
     <Box
       style={{
